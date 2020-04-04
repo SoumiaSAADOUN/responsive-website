@@ -36,4 +36,45 @@ nav{
 }
 .cart{
     flex: 1;
+    justify-content: flex-end;
+}
+.presentation{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+}
+.introduction{
+    flex: 1;
+}
+.intrpo-text h1 {
+    font-size: 44px;
+    font-weight: 500;
+    background: linear-gradient(to right, #494946, #6f6f89);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+}
+.intrpo-text p{
+    margin-top: 5px;
+    font-size: 22px;
+    color: #585772;
+}
+.cta{
+    padding: 50px 0px 0px 0px;
+}
+.cta-select{
+    border: 2px solid #c36cbb;
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+.cover{
+    flex: 1;
+}
+.cover img{
+    height: 60vh;
 }
